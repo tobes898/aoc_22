@@ -117,7 +117,6 @@ current_used_disk = starting_node.data_size
 target_deletion_size = 30000000 - (total_disk_size - current_used_disk)
 print(target_deletion_size)
 lowest_possible_size = -1
-#too high 30005381
 
 for dir_size in size_list:
     if dir_size >= target_deletion_size:
@@ -126,7 +125,6 @@ for dir_size in size_list:
 
 print(lowest_possible_size)
 
-# print(starting_node.data_size)
 
 
 
